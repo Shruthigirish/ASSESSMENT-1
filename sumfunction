@@ -1,0 +1,13 @@
+def sum(numbers):
+    total = 0
+    for x in numbers:
+        total += x
+    return total
+
+list1=[]
+num_list = int(input("Enter the number of elemenst in the list"))
+for i in range(0,num_list):
+    elements = int(input(0))
+    list1.append(elements)
+print("The entered list is: ", list1)
+print(sum((list1)))
